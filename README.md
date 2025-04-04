@@ -1,4 +1,4 @@
-# Configuração do Projeto com Poetry
+# Configuração do Projeto
 
 Este projeto utiliza o [Poetry](https://python-poetry.org/) para gerenciamento de dependências e ambiente virtual. Abaixo estão os comandos básicos para configurar o projeto.
 
@@ -15,15 +15,6 @@ poetry install
 ```
 
 ## Adicionar Dependências
-Para adicionar uma dependência ao projeto:
-```bash
-poetry add <nome-da-dependencia>
-```
-
-Para adicionar uma dependência de desenvolvimento:
-```bash
-poetry add --dev <nome-da-dependencia>
-```
 
 ### Adicionar o PySpark
 Para adicionar o PySpark como dependência ao projeto:
@@ -40,7 +31,7 @@ poetry shell
 ## Executar Scripts
 Para executar scripts Python no ambiente virtual sem ativá-lo:
 ```bash
-poetry run python <script.py>
+poetry run python app.py
 ```
 
 ## Atualizar Dependências

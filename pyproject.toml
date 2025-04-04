@@ -2,7 +2,7 @@
 name = "py-pyspark-sample"
 version = "0.1.0"
 description = ""
-authors = ["Adauto Cabral Torres <adauto.torres@capgemini.com>"]
+authors = ["Adauto Cabral Torres <adauto.torres@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
